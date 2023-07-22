@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+html, body {
+	min-height:100%;
+	height:100vh;
+	width:100vw;
+}
+
+
+/* 전체 wrap 구역 설정 */
+#wrap {
+	width:100vw; height:100vh; 
+	padding-left : 300px; /* header 부분 여백 지정*/
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box; 
+
+}
+
+#wrap header {
+	width:300px; height:100%; position: fixed; 
+	left:0px; top:0px;
+	background-color : white;
+	z-index:11;
+}
+
+/* nav 부분 */
+#wrap header nav {
+	width:100%; height:100%;
+	 display:flex;
+	flex-direction:column; justify-content:center;
+	text-align: center;
+	
+}
+
+#wrap header nav ul{
+	width:100%, height:100%; 
+	padding-left: 0;
+}
+
+#wrap header nav ul li{
+	margin: 0px 0px 80px;
+	list-style-type:none;
+	list-style:none;
+	
+	
+}
+
+
+#wrap header nav ul li a{
+	font-size:25px; color:black; font-weight:600; text-decoration-line:none;
+}
+
+/* nav 글자 hover 효과 */
+#wrap header nav ul li:hover a{
+	color : red;
+}
+
+
+header .logo {
+	
+	position:absolute; left : 60px; top:75px;
+	
+}
+
+header #logo {
+	font-size: 30px; color: black;
+}
+
+/* 컨텐츠 부분 container 범위 설정*/
+#container {
+	width:calc(100vw-300px); height:100%; position:relative;
+}
+
+#container .content {
+	width:25%; height:100%; position:absolute;
+}
+
+#container #menu1{left:0%; positon:relative; z-index:1;}
+#container #menu1::after{background:url(/images/it3.png); background-size:cover; no-repeat; 
+opacity:0.5!important; position:absolute; z-index:-1; content:''; width:100%; height:100%; }
+
+
+#container #menu2{left:25%;positon:relative; z-index:1; }
+#container #menu2::after{background:url(/images/career3.png); background-size:cover; no-repeat; 
+opacity:0.5!important; position:absolute; z-index:-1; content:''; width:100%; height:100%; }
+
+#container #menu3{left:50%;positon:relative; z-index:1; }
+#container #menu3::after{background:url(/images/project4.png); background-size:cover; no-repeat; 
+opacity:0.5!important; position:absolute; z-index:-1; content:''; width:100%; height:100%; }
+
+
+#container #menu4{left:75%;positon:relative; z-index:1; }
+#container #menu4::after{background:url(/images/other5.png); background-size:cover; no-repeat; 
+opacity:0.5!important; position:absolute; z-index:-1; content:''; width:100%; height:100%; }
+
+/* footer 설정*/
+footer {
+	width:300px; position: fixed; left:0px; bottom:40px;
+	font-size:15px; color: black; z-index:12;
+	text-align: center;
+}
+
+footer p {
+	padding:0px 0px 15px ;
+	
+}
+
+
