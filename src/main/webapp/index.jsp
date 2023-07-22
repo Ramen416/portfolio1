@@ -6,6 +6,12 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Roboto&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Roboto&family=Zen+Antique&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
 </head>
 <body style="overflow-x:hidden">
 	<div id="wrap">
@@ -22,12 +28,13 @@
 			</nav>
 		</header>
 		<section id="container">
-			<section id="menu1" class="content"></section>
+			<section id="menu1" class="content" onclick="call_box1()"></section>
 			<section id="menu2" class="content"></section>
 			<section id="menu3" class="content"></section>
 			<section id="menu4" class="content"></section>
-		
+			<section id="menu1_box" class="box1" ></section>
 		</section>
+		
 		<footer>
 		<p>Republic of Korea, Busan</p>
 		<p>TEL (+82)10-3526-8957</p>
@@ -35,5 +42,7 @@
 		
 		</footer>
 	</div>	
+	<script src="./js/script.js"></script>
+	<script src="./js/jquery-3.7.0.min.js"></script>
 </body>
 </html>
