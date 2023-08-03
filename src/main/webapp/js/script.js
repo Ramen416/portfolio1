@@ -49,13 +49,16 @@ function close2() {
 	img4.style.opacity="0.5";
 	box1.style.right="-100%";
 	box2.style.right="-100%";
-	box3.style.left="-100%";
+	box3.style.left="-75%";
 	box4.style.left="-100%";
 }
 
+
 function close3() {
-	menu4.style.left = "75%";
-	menu3.style.left = "50%";
+	menu1.style.left = "0%";
+	menu2.style.left = "25%";
+	menu3.style.left ="50%";
+	menu4.style.left="75%";
 	img1.style.opacity="0.5";
 	img2.style.opacity="0.5";
 	img3.style.opacity="0.5";
@@ -67,6 +70,10 @@ function close3() {
 }
 
 function close4() {
+	menu1.style.left = "0%";
+	menu2.style.left = "25%";
+	menu3.style.left ="50%";
+	menu4.style.left="75%";
 	img1.style.opacity="0.5";
 	img2.style.opacity="0.5";
 	img3.style.opacity="0.5";
@@ -146,10 +153,11 @@ function on1() {
 };
 
 function clk1() {
+	box1.style.right="0%";
 	menu1.style.left="0%";
 	menu2.style.left="25%";
 	box1.style.transition = "0.5s";
-	box1.style.right="0%";
+	
 	box2.style.right="-100%";
 	box3.style.left="-100%";
 	box4.style.left="-100%";
