@@ -16,6 +16,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Rakkas&family=Roboto&family=Zen+Antique&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Rakkas&family=Roboto&family=Zen+Antique&family=Zen+Antique+Soft&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Rakkas&family=Roboto&family=Zen+Antique&family=Zen+Antique+Soft&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
 </head>
 <body style="overflow-x:hidden">
 	<div id="wrap">
@@ -122,13 +124,17 @@
 				<div id="project1" class="project">
 					
 				</div>
-				<div id="project1_content">s24234</div>
+				<div id="project1_content">花びらの美しさを持ってる日本の仮想旅館ウェブページを作りました。<br>
+										フロントエンドを中心にしてジャバスクリプトやJ-QUERYの<br>様々なアニメーション効果を適用したページです。
+										
+										</div>
 				<div id="project2" class="project">
 				</div>
 				<div id="project2_content">s24234</div>
 				<div id="project3" class="project">
 				</div>
-				<div id="project3_content">s24234</div>
+				<div id="project3_content">色んな友達とメッセージやチャットでコミュニケーションが出来る<br>ソーシャルネットワーキングサービスのウェブアプリケーションです。<br>
+										私が担当した部分を発表する動画をリンクしておりました。</div>
 			</section>
 			<section id="menu4_box" class="box4">
 				<div id="close4" onclick="close4()"><<</div>
