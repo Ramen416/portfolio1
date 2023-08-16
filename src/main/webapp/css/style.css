@@ -53,7 +53,7 @@ html, body {
 	left:0px; top:0px;
 	
 	opacity:1;
-	z-index:20;
+	z-index:40;
 	border-right-width:1px;
 	border-right-color: black;
 	border-style:solid;
@@ -337,8 +337,8 @@ header #logo a {
 	margin-left:32px;
  	font-size:18px;
  	line-height:1.8;
- 	font-weight:500;
- 	font-family: 'Zen Antique Soft', serif;
+ 	font-weight:650;
+ 	font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 #container .box3 #project2_content {
@@ -349,8 +349,8 @@ header #logo a {
 	margin-left:32px;
  	font-size:18px;
  	line-height:1.8;
- 	font-weight:500;
- 	font-family: 'Zen Antique Soft', serif;
+ 	font-weight:650;
+ 	font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 #container .box3 #project3_content {
 	
@@ -360,8 +360,8 @@ header #logo a {
 	margin-left:32px;
  	font-size:18px;
  	line-height:1.8;
- 	font-weight:500;
- 	font-family: 'Zen Antique Soft', serif;
+ 	font-weight:650;
+ 	font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 
@@ -386,21 +386,70 @@ header #logo a {
 	height: 200px;
 	padding-top: 100px;
 	padding-left: 250px;
+	position: relative;
 	
 }
 
 #container .box1 #box_content2 {
 
-	font-size:25px;
-	padding-top: 80px;
+	font-size:21px;
+	padding-top: 95px;
 	padding-right: 250px;
+	font-family: 'Zen Antique Soft', serif;
+	
 	
 }
 
 #container .box1 #box_content2 p{
 
-	font-family: 'Zen Antique Soft', serif;
+		font-family: 'Zen Antique Soft', serif;
+		font-weight: 500;
 	line-height: 2.5;
+	margin-left: 70px;
+	
+}
+
+#container .box1 #box_content3 {
+
+	width: 70%;
+	height: 500px;
+	position: absolute;
+	top: 450px;
+	 
+	margin-left: 200px;
+ 	float: left;
+ 	font-family: 'Zen Kurenaido', sans-serif;
+	line-height: 2;
+	font-size: 22px;
+	
+}
+
+#container .box1 #box_content3 h2{
+
+	font-family: 'Zen Old Mincho', serif;
+	font-size: 22px;
+	font-weight: 500px;
+	font-weight: bold;
+	text-align:center;
+	
+}
+
+#container .box1 #box_content3 p{
+	padding-top:20px;
+	font-family: 'Zen Old Mincho', serif;
+	line-height: 2;
+	font-size: 22px;
+	font-weight:medium;
+	
+	
+}
+#container .box1 #box_content3 #p2{
+
+	font-family: 'Zen Antique Soft', serif;
+	line-height: 2;
+	font-size: 22px;
+	padding-left:-200px;
+	
 }
 
 

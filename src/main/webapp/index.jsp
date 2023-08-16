@@ -7,17 +7,7 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="./css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Roboto&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Roboto&family=Zen+Antique&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Rakkas&family=Roboto&family=Zen+Antique&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Rakkas&family=Roboto&family=Zen+Antique&family=Zen+Antique+Soft&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Rakkas&family=Roboto&family=Zen+Antique&family=Zen+Antique+Soft&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Rakkas&family=Roboto&family=Zen+Antique&family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+New&family=Zen+Kurenaido&family=Zen+Maru+Gothic:wght@500&family=Zen+Old+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body style="overflow-x:hidden">
 	<div id="wrap">
@@ -53,14 +43,21 @@
 					<div id="box_content1" style="float : left">
 						<img src="./images/untitled.png" id="picture">
 					</div>
-					<div id="box_content2" style="float : right">
+					<div id="box_content2" style="float : left">
 					<P>氏   名	: 明 徒謙 / Myung DoGyeom(ﾐｮﾝ･ﾄﾞｷﾞｮﾑ)</P>
 					<p>生年月日	: 1989.04.16(満34歳)	</p>
 					<P>性　別		: 男</P>
 					<P>E-mail	: blueberryapril16@gmail.com</P>
 					</div>
-					<div style="float : bottom">
-					sdsddfsfdsfsfsdffsdf
+					<div id="box_content3">
+					<h2>自己紹介</h2>
+					<p>&nbsp;私は昔から語学の勉強が好きだった人です。英語の勉強から始めて大学でドイツ語と日本語の勉強を熱心にしました。
+					どの言語の勉強も楽しかったし短い時間だったんですが日本とインドで留学した時に色々と役に立って本当に充実した時間を過ごすことが出来ました。
+					このような経験は私がITという今まで経験したことない新しい分野に挑むのに必要な自身を与えてくれました。
+					実際にITの専門課程に参加してみてITの言語の勉強も今までの言語の勉強と同じく楽しと思いました。
+					すぐ画面で変化を確認出来て自分で何かを完成させる充実感を感じられる上に日本語の敬語も学ぶことが出来て人としてより一層成長したの思っています。
+					私はこういう私の言語のスキルとITの勉強で手に入れた論理的な思考を極力活かして人の生活をもっと便利にするのに役に立つIT開発者になりたいんです。</p>
+					
 					</div>
 					</div>
 				
